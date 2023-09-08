@@ -1,0 +1,102 @@
+my_basics {
+  display: inline-block;
+  text-align: center;
+}
+
+h3.name {
+  text-align: center;
+  margin-left: 25%;
+}
+
+.author-social {
+  font-size: 1.5rem;
+}
+
+
+.author_list_paper {
+  font-size: 90%
+}
+
+.venue {
+  font-size: 90%
+}
+
+.class_project_class{
+  font-family: 'FontAwesome';
+}
+
+.class_project_title {
+  border-bottom: 1px dotted #000;
+  text-decoration: none;
+}
+
+.right-align-nav {
+  /* float: right; */
+  margin-left: 35%;
+}
+
+/* DROPDOWN */
+/* .dropdown-content {
+  visibility: hidden;
+  position: absolute;
+  right: 20%;
+  padding-top:1%;
+  width: 5%;
+  background: #f0eee9;
+}
+.dropdown-content a {
+  padding-left: 25%;
+} */
+
+.dropdown {
+  float: right;
+  margin-right: 15%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.show {display: block;}
+
+
+
+.urdu-text {
+  text-align: right;
+  line-height: 2em;
+  direction: rtl;
+}
+
+.urdu-button, #urdu-body div{
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.xs-nav {
+  overflow: visible !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .xs-language {
+    position: absolute !important;
+    top: 6% !important;
+    right: 0% !important;
+  }
+
+  .navigation-wrapper {
+    padding-bottom: 7em !important;
+  }
+}
