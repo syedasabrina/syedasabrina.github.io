@@ -147,6 +147,11 @@ h3.name {
   }
 }
 
+/* Match nav font size to the h3 name heading (24px / 1.5rem) */
+.top-navigation li {
+  font-size: 1.5rem;
+}
+
 
 @media only screen and (max-width: 600px) {
   .xs-language {
