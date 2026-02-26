@@ -7,6 +7,7 @@ my_basics {
   font-style: normal;
   font-size: 13px;
   max-width: 160px;
+  white-space: nowrap;
 }
 
 .sidebar-contact p {
@@ -131,6 +132,14 @@ h3.name {
 
 .xs-nav {
   overflow: visible !important;
+}
+
+/* Align nav items with article content (starts at 25% = sidebar width + margins) */
+@media only screen and (min-width: 37.5em) {
+  .top-navigation {
+    margin-left: 25% !important;
+    width: 75% !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
