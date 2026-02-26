@@ -3,7 +3,12 @@ my_basics {
   text-align: center;
 }
 
-.sidebar-name,
+.article-author-side p.sidebar-name {
+  font-style: normal;
+  font-size: 13px;
+  max-width: 160px;
+}
+
 .sidebar-contact p {
   font-style: normal;
   font-size: 15px;
