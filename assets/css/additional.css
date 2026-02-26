@@ -12,7 +12,8 @@ my_basics {
 
 .sidebar-contact p {
   font-style: normal;
-  font-size: 15px;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 .sidebar-contact {
@@ -134,12 +135,26 @@ h3.name {
   overflow: visible !important;
 }
 
-/* Align nav items with article content (starts at 25% = sidebar width + margins) */
-@media only screen and (min-width: 37.5em) {
-  .top-navigation {
-    margin-left: 25% !important;
-    width: 75% !important;
-  }
+/* In-article nav — sits at the top of the article-wrap, left-aligned with bio text */
+.article-nav {
+  list-style: none;
+  margin: 1.5em 0 14px 0;
+  padding: 0;
+  font-family: "Pragati Narrow", sans-serif;
+  text-transform: uppercase;
+}
+
+.article-nav li {
+  display: inline;
+  margin-right: 22px;
+  white-space: nowrap;
+}
+
+.article-nav li a {
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: none !important;
+  color: inherit;
 }
 
 @media only screen and (max-width: 600px) {
@@ -147,9 +162,5 @@ h3.name {
     position: absolute !important;
     top: 6% !important;
     right: 0% !important;
-  }
-
-  .navigation-wrapper {
-    padding-bottom: 7em !important;
   }
 }
