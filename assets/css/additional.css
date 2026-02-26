@@ -4,7 +4,7 @@ my_basics {
 }
 
 .sidebar-name,
-.sidebar-contact {
+.sidebar-contact p {
   font-style: normal;
   font-size: 15px;
 }
@@ -14,12 +14,9 @@ my_basics {
   line-height: 1.7;
 }
 
-.section-header {
-  font-family: "Pragati Narrow", sans-serif;
-  font-size: 24px;
-  line-height: 1.0833;
-  font-weight: normal;
-  margin: 0 0 16px 0;
+.article-author-side p {
+  font-style: normal;
+  font-size: 100%;
 }
 
 .profile-intro {
