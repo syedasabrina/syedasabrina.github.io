@@ -3,6 +3,48 @@ my_basics {
   text-align: center;
 }
 
+.sidebar-name,
+.sidebar-contact {
+  font-style: normal;
+  font-size: 15px;
+}
+
+.sidebar-contact {
+  color: #777;
+  line-height: 1.7;
+}
+
+.section-header {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 24px;
+  line-height: 1.0833;
+  font-weight: normal;
+  margin: 0 0 16px 0;
+}
+
+.profile-intro {
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.subtitle {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+}
+
+.focus-line {
+  margin: 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.content-divider {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 22px 0;
+}
+
 h3.name {
   text-align: center;
   margin-left: 25%;
